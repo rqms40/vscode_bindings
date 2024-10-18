@@ -46,6 +46,10 @@
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.showHover"]
     }
   ],
   "vim.visualModeKeyBindings": [
